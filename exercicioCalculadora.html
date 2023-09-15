@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Calculadora</title>
+</head>
+<body>
+    
+    <!-- Testar calculadora com opção -->
+    <form action="#" method="post">
+        <p>Digite: 1 - Soma | 2 - Subtração | 3 - Multiplicação | 4 - Divisão</p>
+        <input type="number" id="escolha" name="escolha">
+        <br>
+        <p>Calculando dois números inteiros</p>
+        <p>Primeiro numero: </p>
+        <input type="number" id="number1" name="number1" autofocus required>
+        <p>Segundo numero:</p> 
+        <input type="number" id="number2" name="number2" required>
+
+
+        <input type="button" value="Calcular" id="calcular" onclick="calculadora()">
+    </form>
+
+    <div>Resultado: <p id="resposta"></p></div>
+
+
+    <script src="js/exercicioCalculadora.js"></script>
+</body>
+</html>
